@@ -35,7 +35,7 @@ jobs:
           yarn add -D typescript typedoc@${{ matrix.typedoc-version }}
           echo '{"compilerOptions": {"target": "es5","module": "commonjs","lib": ["es2015"],"strict": true,"esModuleInterop": true,"forceConsistentCasingInFileNames": true}}' >> tsconfig.json
           echo 'export class HelloWorld {}' >> src/hello-world.ts
-          yarn link typedoc-plugin-mermaid
-          yarn run typedoc --plugin typedoc-plugin-mermaid \
+          yarn link @bobkerns/typedoc-plugin-mermaid
+          yarn run typedoc --plugin @bobkerns/typedoc-plugin-mermaid \
             --out docs \
             src/hello-world.ts
