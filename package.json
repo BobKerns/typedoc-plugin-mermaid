@@ -1,7 +1,7 @@
 {
   "name": "@rwk/typedoc-plugin-mermaid",
   "version": "1.9.0-test",
-  "description": "A plugin for TypeDoc that generates graphs for mermaid.js diagrams by using @mermaid annotation.",
+  "description": "A plugin for TypeDoc that generates graphs for mermaid.js diagrams by using @mermaid annotation.\n[Temp fork to be compatible with mermaid v10]",
   "main": "./dist/index.js",
   "exports": {
     "import": "./dist/index.mjs",
