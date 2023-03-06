@@ -13,6 +13,7 @@
 # typedoc-plugin-mermaid
 
 A plugin for TypeDoc that generates graphs for mermaid.js diagrams by @mermaid annotation.
+[Temp fork to be compatible with mermaid v10]
 
 ## Installation
 
